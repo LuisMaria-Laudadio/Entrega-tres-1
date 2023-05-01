@@ -1,0 +1,161 @@
+/* reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+/*---------estilos de header--------*/
+header {
+  background-color: #535252;
+  font-weight: 700;
+  font-size: large; }
+  header nav div a img {
+    width: 150px;
+    height: 150px;
+    margin-left: 5px; }
+  header nav div span img {
+    height: 150px;
+    width: 150px; }
+  header nav div button {
+    margin-right: 5px; }
+
+/*------------estilos del main---------------*/
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background-color: #663399;
+  text-align: center;
+  /* estilos de clases*/ }
+  main img {
+    width: 300px;
+    height: 450px; }
+  main span {
+    font-weight: bold;
+    color: #fff; }
+  main .h3-home {
+    color: yellow; }
+  main .home-h4 {
+    margin-top: 23px;
+    color: yellow; }
+  main .div-home {
+    text-align: center;
+    width: 300px;
+    height: 450px; }
+  main .gap-main {
+    gap: 40px;
+    flex-wrap: wrap; }
+  main .img-p {
+    border: 2px solid #bebab6; }
+  main .precio {
+    color: yellow; }
+  main .sobnos {
+    font-weight: 700;
+    font-size: 18px;
+    color: #bebab6; }
+  main .img-home {
+    text-align: center; }
+
+/* estilos de formulario y contactos*/
+.form {
+  font-family: sans-serif;
+  width: 60%;
+  min-width: 295px;
+  background: rgba(0, 0, 0, 0.491);
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  color: #535252; }
+
+.form-input {
+  width: 100%;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #242323;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #fff; }
+
+.form-text {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #242323;
+  color: #fff; }
+
+.form-text::placeholder {
+  font-size: 1.4rem; }
+
+.h1-contacto {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10px;
+  font-weight: 500; }
+
+.form-lable {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 300; }
+
+.enviar {
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: #535252;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 20px 0 2px 0;
+  cursor: pointer;
+  transition: all 0.5s ease; }
+
+.enviar:hover {
+  background: #3636bb57; }
+
+.logo-c {
+  width: 50px;
+  height: 50px; }
+
+/* ----------estilos de footer*---------*/
+footer {
+  background-color: #242323;
+  text-align: center;
+  height: 108px;
+  font-size: 28px;
+  color: #fff; }
+
+/*----------------Media Query------------*/
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  .form {
+    width: 60%;
+    min-width: 295px; }
+  .sobnos {
+    display: none; }
+  .drops-sb {
+    display: none; } }
+
+@media screen and (min-width: 451px) and (max-width: 765px) {
+  .form {
+    width: 60%;
+    min-width: 400px; }
+  .sobnos {
+    display: none; }
+  .drops-sb {
+    display: none; } }
+
+@media screen and (min-width: 766px) {
+  .form {
+    width: 80%;
+    min-width: 500px;
+    max-width: 800px; } }
